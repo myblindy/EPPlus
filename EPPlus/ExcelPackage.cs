@@ -815,7 +815,7 @@ namespace OfficeOpenXml
                 _workbook = null;
                 _stream = null;
                 _workbook = null;
-                GC.Collect();
+                //GC.Collect();
             }
 		}
         #endregion
